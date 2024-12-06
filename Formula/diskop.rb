@@ -8,8 +8,8 @@ class Diskop < Formula
   depends_on "python@3.11"
 
   resource "readchar" do
-    url "https://files.pythonhosted.org/packages/a1/57/439aaa28659e66265518232bf4291ae5568aa01cd9e0e5f68d12aaf562b6/readchar-4.0.5.tar.gz"
-    sha256 "08a456c2d7c1888cde3f4688b542621b676eb38cd6cfed7eb6cb2e2905ddc826"
+    url "https://files.pythonhosted.org/packages/50/39/e0d425b0fb01f2f16d70a22d4cfff974fd0de7bb0d85da72dbc62ff27405/readchar-4.0.5-py3-none-any.whl"
+    sha256 "76ec784a5dd2afac3b7da8003329834cdd9824294c260fb8aec6b2cef45b2c4d"
   end
 
   def install
