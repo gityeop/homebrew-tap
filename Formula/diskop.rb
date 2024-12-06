@@ -2,8 +2,8 @@ class Diskop < Formula
   include Language::Python::Virtualenv
   desc "Terminal User Interface (TUI) disk management tool for macOS"
   homepage "https://github.com/gityeop/diskop"
-  url "https://github.com/gityeop/diskop/archive/refs/tags/v1.0.2.tar.gz"
-  sha256 "e5d2d1a37071d9daade5531dd72ed59c371b7e292e94bea0d961de68e08380f2"
+  url "https://github.com/gityeop/diskop/archive/refs/tags/v1.0.3.tar.gz"
+  sha256 "92008f5669cb8b41fbc02a52e156ca6e6c1857e4ef5effc0743178e0d4adc7ad"
   license "MIT"
 
   depends_on "python@3.11"
