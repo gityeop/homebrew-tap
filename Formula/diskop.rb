@@ -2,8 +2,8 @@ class Diskop < Formula
   include Language::Python::Virtualenv
   desc "Terminal User Interface (TUI) disk management tool for macOS"
   homepage "https://github.com/gityeop/diskop"
-  url "https://github.com/gityeop/diskop/archive/refs/tags/v1.0.0.tar.gz"
-  sha256 "2046b4540fd2bb4d75f9cd3f0cc2bf8a6a93d9cbb2571b4ffd5d6a4ec17a26c5"
+  url "https://github.com/gityeop/diskop/archive/refs/tags/v1.0.1.tar.gz"
+  sha256 "4a2d4b41fdae7695ade06cbea2272ed073407da26af443aee71f7fd920c055e7"
   license "MIT"
 
   depends_on "python@3.11"
@@ -15,7 +15,6 @@ class Diskop < Formula
 
   def install
     virtualenv_install_with_resources
-    bin.install "diskop.py" => "diskop"
   end
 
   test do
