@@ -3,7 +3,7 @@ class Diskop < Formula
   desc "Terminal User Interface (TUI) disk management tool for macOS"
   homepage "https://github.com/gityeop/diskop"
   url "https://github.com/gityeop/diskop/archive/refs/tags/v1.0.4.tar.gz"
-  sha256 "a49e0174f3415047441dc200ee909c6cf7456b4de3c834056e7b97d7edf4ef92"
+  sha256 "423a5f2bcd830df94caf7f5d5b70918d9a7d8e789c99efeda612de84a89bf08c"
   license "MIT"
 
   depends_on "python@3.11"
